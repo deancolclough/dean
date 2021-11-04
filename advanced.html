@@ -1,40 +1,50 @@
-<!--On the Google Advanced Search page, the user should be able to provide input for the following four fields (taken from Google’s own advanced search options)-->
-<!--Find pages with… “all these words:”
-Find pages with… “this exact word or phrase:”
-Find pages with… “any of these words:”
-Find pages with… “none of these words:”-->
-
-<!--Like Google’s own Advanced Search page, the four options should be stacked vertically, and all of the text fields should be left aligned.-->
-
-<!--Consistent with Google’s own CSS, the “Advanced Search” button should be blue with white text. When the “Advanced Search” button is clicked, 
-    the user should be taken to search results page for their given query.-->
-
-
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <title>Advanced Search</title>
         <link href="css/style.css" rel="stylesheet" />
     </head>
     <body>
-
-
-
     <div class="searchlinks">
         <a href = "index.html" class="toplink">Google Search</a>
     </div>
-
-    <div class="searchform">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/368px-Google_2015_logo.svg.png"  width="15%" height="15%"><br>
+    <div class="topheader">Advanced Search</div>
+    <div class="advancedsearchform">
         <form action="https://google.com/search">
-            <input type="text" class="searchbox" name="q"><br>
-            <input type="submit" class="submit" value="Google Search">
-            <input type="submit" class="submit" value="I'm Feeling Lucky">
+        <table>
+            <tr>
+              <th>Find pages with...<br></th>
+              <th></th>
+              <th class="smallerheader">To do this in the search box.</th>
+            </tr>
+            <tr>
+              <td>all of these words:</td>
+              <td><input type="text" class="advsearchbox" name="as_q"></td>
+              <td class="smallertxt">Type the important words: tri-colour rat terrier</td>
+            </tr>
+            <tr>
+                <td>this exact word or phrase:</td>
+                <td><input type="text" class="advsearchbox" name="as_epq"></td>
+                <td class="smallertxt">Put exact words in quotes: "rat terrier"</td>
+            </tr>
+            <tr>
+                <td>any of these words:</td>
+                <td><input type="text" class="advsearchbox" name="as_oq"></td>
+                <td class="smallertxt">Type OR between all the words you want: miniature OR standard</td>
+            </tr>
+            <tr>
+                <td>none of these words:</td>
+                <td><input type="text" class="advsearchbox" name="as_eq"></td>
+                <td class="smallertxt">Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td class="btnalign"><input type="submit" class="advsubmitbtn" value="Advanced Search"></td>
+                <td></td>
+            </tr>
+          </table>
         </form>
         <br>
-    <div class="basetext">Explore Dean's fake google page
-        
-    </div>
     </div>
     </body>
 </html>
