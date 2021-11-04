@@ -1,0 +1,85 @@
+form {
+    font-family: arial, sans-serif;
+    text-align: center;
+  }
+
+  .searchbox {   
+    border-radius: 30px;
+    border-color: rgb(206, 206, 206);
+    border-width: 1px;
+    font-size: 20px;
+    padding: 5px;
+    width: 540px;
+    height: 30px;
+    margin: 5px;
+  }
+
+  .submit {   
+      text-align: center;
+      border-radius: 5px;
+      outline:none;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      padding-right: 20px;
+      padding-left: 20px;
+      background: #fcfbfb;
+      margin-top: 30px;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      cursor: pointer;
+      border: none;
+    }
+
+    .submit:hover {   
+      border-radius: 5px ;
+      outline: 1px solid rgb(189, 187, 187);
+      outline-offset: -4px;
+      }
+
+  
+  body {
+    margin: 0;
+    font-family: arial, sans-serif;
+    font-size: 24px;
+    color: #212529;
+  }
+
+  html {
+    font-family: arial, sans-serif;
+    font-size: 24px;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+
+  .searchform {
+    margin-top: 180px;
+    text-align: center;
+  }
+
+  .searchlinks{
+    text-align: right;
+    padding: 20px;
+  }
+
+  .basetext{
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    color: rgb(30, 8, 156);
+  }
+
+  .basetext:hover{
+    text-decoration: underline;
+  }
+
+  .toplink{
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    color: #000;
+    text-decoration: none;
+    margin: 5px;
+  }
+
+  .toplink:hover{
+      text-decoration: underline;
+  }
